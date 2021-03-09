@@ -1,9 +1,10 @@
 # How to implement Equals Search type in SearchController in WPF DataGrid(SfDataGrid)?
 
 ## About the sample
-This example illustrates how to implement Equals Search type in SearchController in WPF DataGrid(SfDataGrid)
 
-By default, SfDataGrid does not provide the support for SearchType property as Equals in SearchHelper. You can achieve this by override the MatchSearchText method in SfDataGrid.SearchHelper. 
+This example illustrates how to implement Equals Search type in SearchController in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the support for [SearchType](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SearchHelper~SearchType.html) property as Equals in [SearchHelper](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SearchHelper.html). You can achieve this by override the [MatchSearchText](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SearchHelper~MatchSearchText.html) method in [SfDataGrid.SearchHelper](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SearchHelper.html). 
 
 ```C#
 btnFind.Click += BtnFind_Click;
