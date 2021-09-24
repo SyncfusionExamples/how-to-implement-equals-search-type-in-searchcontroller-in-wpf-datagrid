@@ -37,5 +37,7 @@ public class SearchHelperExt : SearchHelper
 }
 ```
 
+KB article - [How to implement Equals Search type in SearchController in WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11756/how-to-implement-equals-search-type-in-searchcontroller-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
